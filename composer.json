@@ -1,0 +1,21 @@
+{
+    "name": "raziul/crud-wp-plugin",
+    "description": "CRUD Operation WordPress Plugin",
+    "type": "wordpress-plugin",
+    "license": "GPLv2",
+    "autoload": {
+        "psr-4": {
+            "Raziul\\CrudWpPlugin\\": "includes/"
+        },
+        "files": [
+            "includes/functions.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Raziul"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
